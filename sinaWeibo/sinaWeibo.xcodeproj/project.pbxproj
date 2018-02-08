@@ -26,6 +26,7 @@
 		547E2A5E202BFA80002FE333 /* UIScreen+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 547E2A50202BFA80002FE333 /* UIScreen+CZAddition.m */; };
 		547E2A5F202BFA80002FE333 /* UIView+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 547E2A52202BFA80002FE333 /* UIView+CZAddition.m */; };
 		547E2A60202BFA80002FE333 /* UIViewController+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 547E2A54202BFA80002FE333 /* UIViewController+CZAddition.m */; };
+		547E2A6A202C2A3D002FE333 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547E2A64202C2A3D002FE333 /* Bundle+Extensions.swift */; };
 		843C598F202B4D6C00D0FC6A /* WSTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C598E202B4D6C00D0FC6A /* WSTabBarController.swift */; };
 		843C5991202B4F3300D0FC6A /* WSHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C5990202B4F3300D0FC6A /* WSHomeTableViewController.swift */; };
 		843C5993202B4F4800D0FC6A /* WSMessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C5992202B4F4800D0FC6A /* WSMessageTableViewController.swift */; };
@@ -90,6 +91,7 @@
 		547E2A53202BFA80002FE333 /* UIViewController+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CZAddition.h"; sourceTree = "<group>"; };
 		547E2A54202BFA80002FE333 /* UIViewController+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CZAddition.m"; sourceTree = "<group>"; };
 		547E2A62202BFCF7002FE333 /* sinaWeibo-Bridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sinaWeibo-Bridging.h"; sourceTree = "<group>"; };
+		547E2A64202C2A3D002FE333 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
 		843C598E202B4D6C00D0FC6A /* WSTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSTabBarController.swift; sourceTree = "<group>"; };
 		843C5990202B4F3300D0FC6A /* WSHomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSHomeTableViewController.swift; sourceTree = "<group>"; };
 		843C5992202B4F4800D0FC6A /* WSMessageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSMessageTableViewController.swift; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 		547E2A3A202BFA4D002FE333 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				547E2A63202C2A3D002FE333 /* Extensions */,
 				547E2A3B202BFA80002FE333 /* Additions */,
 			);
 			path = Tools;
@@ -211,6 +214,14 @@
 				547E2A54202BFA80002FE333 /* UIViewController+CZAddition.m */,
 			);
 			path = Additions;
+			sourceTree = "<group>";
+		};
+		547E2A63202C2A3D002FE333 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				547E2A64202C2A3D002FE333 /* Bundle+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		843C5988202B4BB300D0FC6A /* Class */ = {
@@ -408,6 +419,7 @@
 				547E2A5D202BFA80002FE333 /* UILabel+CZAddition.m in Sources */,
 				547E2A56202BFA80002FE333 /* NSAttributedString+CZAdditon.m in Sources */,
 				547E2A60202BFA80002FE333 /* UIViewController+CZAddition.m in Sources */,
+				547E2A6A202C2A3D002FE333 /* Bundle+Extensions.swift in Sources */,
 				547E2A58202BFA80002FE333 /* NSString+CZBase64.m in Sources */,
 				547E2A33202BF263002FE333 /* WSBaseViewController.swift in Sources */,
 				843C5991202B4F3300D0FC6A /* WSHomeTableViewController.swift in Sources */,
