@@ -10,9 +10,10 @@
 		547E2A03202B019F002FE333 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547E2A02202B019F002FE333 /* AppDelegate.swift */; };
 		547E2A08202B019F002FE333 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547E2A06202B019F002FE333 /* Main.storyboard */; };
 		547E2A0A202B019F002FE333 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 547E2A09202B019F002FE333 /* Assets.xcassets */; };
-		547E2A0D202B019F002FE333 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547E2A0B202B019F002FE333 /* LaunchScreen.storyboard */; };
 		547E2A18202B01A0002FE333 /* sinaWeiboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547E2A17202B01A0002FE333 /* sinaWeiboTests.swift */; };
 		547E2A23202B01A0002FE333 /* sinaWeiboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547E2A22202B01A0002FE333 /* sinaWeiboUITests.swift */; };
+		547E2A31202BF23C002FE333 /* WSNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547E2A30202BF23C002FE333 /* WSNavigationController.swift */; };
+		547E2A33202BF263002FE333 /* WSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547E2A32202BF262002FE333 /* WSBaseViewController.swift */; };
 		843C598F202B4D6C00D0FC6A /* WSTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C598E202B4D6C00D0FC6A /* WSTabBarController.swift */; };
 		843C5991202B4F3300D0FC6A /* WSHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C5990202B4F3300D0FC6A /* WSHomeTableViewController.swift */; };
 		843C5993202B4F4800D0FC6A /* WSMessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C5992202B4F4800D0FC6A /* WSMessageTableViewController.swift */; };
@@ -42,7 +43,6 @@
 		547E2A02202B019F002FE333 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		547E2A07202B019F002FE333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		547E2A09202B019F002FE333 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		547E2A0C202B019F002FE333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		547E2A0E202B019F002FE333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		547E2A13202B01A0002FE333 /* sinaWeiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sinaWeiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		547E2A17202B01A0002FE333 /* sinaWeiboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sinaWeiboTests.swift; sourceTree = "<group>"; };
@@ -50,6 +50,8 @@
 		547E2A1E202B01A0002FE333 /* sinaWeiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sinaWeiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		547E2A22202B01A0002FE333 /* sinaWeiboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sinaWeiboUITests.swift; sourceTree = "<group>"; };
 		547E2A24202B01A0002FE333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		547E2A30202BF23C002FE333 /* WSNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSNavigationController.swift; sourceTree = "<group>"; };
+		547E2A32202BF262002FE333 /* WSBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSBaseViewController.swift; sourceTree = "<group>"; };
 		843C598E202B4D6C00D0FC6A /* WSTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSTabBarController.swift; sourceTree = "<group>"; };
 		843C5990202B4F3300D0FC6A /* WSHomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSHomeTableViewController.swift; sourceTree = "<group>"; };
 		843C5992202B4F4800D0FC6A /* WSMessageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSMessageTableViewController.swift; sourceTree = "<group>"; };
@@ -109,7 +111,6 @@
 				547E2A02202B019F002FE333 /* AppDelegate.swift */,
 				547E2A06202B019F002FE333 /* Main.storyboard */,
 				547E2A09202B019F002FE333 /* Assets.xcassets */,
-				547E2A0B202B019F002FE333 /* LaunchScreen.storyboard */,
 				547E2A0E202B019F002FE333 /* Info.plist */,
 			);
 			path = sinaWeibo;
@@ -181,6 +182,8 @@
 			isa = PBXGroup;
 			children = (
 				843C598E202B4D6C00D0FC6A /* WSTabBarController.swift */,
+				547E2A30202BF23C002FE333 /* WSNavigationController.swift */,
+				547E2A32202BF262002FE333 /* WSBaseViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -292,7 +295,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				547E2A0D202B019F002FE333 /* LaunchScreen.storyboard in Resources */,
 				547E2A0A202B019F002FE333 /* Assets.xcassets in Resources */,
 				547E2A08202B019F002FE333 /* Main.storyboard in Resources */,
 			);
@@ -319,6 +321,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				547E2A31202BF23C002FE333 /* WSNavigationController.swift in Sources */,
+				547E2A33202BF263002FE333 /* WSBaseViewController.swift in Sources */,
 				843C5991202B4F3300D0FC6A /* WSHomeTableViewController.swift in Sources */,
 				547E2A03202B019F002FE333 /* AppDelegate.swift in Sources */,
 				843C5995202B4F6400D0FC6A /* WSDiscoverTableViewController.swift in Sources */,
@@ -366,14 +370,6 @@
 				547E2A07202B019F002FE333 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		547E2A0B202B019F002FE333 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				547E2A0C202B019F002FE333 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
