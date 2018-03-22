@@ -17,33 +17,9 @@ class WSTabBarController: UITabBarController {
         
         UITabBar.appearance().tintColor = UIColor.orange
         
+        // 初始化控制器
         setupChildController()
-        
-//        addChildViewController(childVc: WSHomeTableViewController(), title: "首页", imageName: "tabbar_home")
-//
-//        addChildViewController(childVc: WSMessageTableViewController(), title: "消息", imageName: "tabbar_message_center")
-//
-//        addChildViewController(childVc: WSDiscoverTableViewController(), title: "发现", imageName: "tabbar_discover")
-//
-//        addChildViewController(childVc: WSProfileTableViewController(), title: "我", imageName: "tabbar_profile")
     }
-    
-//    private func addChildViewController(childVc: UIViewController, title : String, imageName : String) {
-//
-//        // 设置title和image
-//        childVc.title = title
-//        childVc.tabBarItem.image = UIImage(named: imageName)
-//        childVc.tabBarItem.selectedImage = UIImage(named: imageName + "_highlighted")
-//        //        childVc.tabBarItem.selectedImage = UIImage(named: imageName + "_highlighted")?.withRenderingMode(.alwaysOriginal)
-//
-//        let nav = UINavigationController(rootViewController: childVc)
-//
-//        self.addChildViewController(nav)
-//    }
-    
-    
-    
-    
 }
 
 // MARK:- 初始化控制器
