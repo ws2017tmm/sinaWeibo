@@ -1,5 +1,5 @@
 //
-//  WSHomeTableViewController.swift
+//  WSDiscoverViewController.swift
 //  sinaWeibo
 //
 //  Created by wusheng on 2018/2/7.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class WSHomeTableViewController: WSBaseViewController {
+class WSDiscoverViewController: WSBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -12,10 +12,13 @@
 		547E2A0A202B019F002FE333 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 547E2A09202B019F002FE333 /* Assets.xcassets */; };
 		547E2A18202B01A0002FE333 /* sinaWeiboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547E2A17202B01A0002FE333 /* sinaWeiboTests.swift */; };
 		547E2A23202B01A0002FE333 /* sinaWeiboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547E2A22202B01A0002FE333 /* sinaWeiboUITests.swift */; };
-		84EA62CD20669F7600FCA75C /* WSHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA62A320669F7600FCA75C /* WSHomeTableViewController.swift */; };
-		84EA62CE20669F7700FCA75C /* WSDiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA62A520669F7600FCA75C /* WSDiscoverTableViewController.swift */; };
-		84EA62CF20669F7700FCA75C /* WSMessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA62A720669F7600FCA75C /* WSMessageTableViewController.swift */; };
-		84EA62D020669F7700FCA75C /* WSProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA62A920669F7600FCA75C /* WSProfileTableViewController.swift */; };
+		840B0C1A216AEE7E00EFBC87 /* WSNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840B0C19216AEE7E00EFBC87 /* WSNavigationBar.swift */; };
+		849186A3216AF7A3008A3644 /* UIDevice+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849186A2216AF7A3008A3644 /* UIDevice+Extensions.swift */; };
+		849186A5216B482F008A3644 /* UIBarButtonItem+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849186A4216B482F008A3644 /* UIBarButtonItem+Extensions.swift */; };
+		84EA62CD20669F7600FCA75C /* WSHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA62A320669F7600FCA75C /* WSHomeViewController.swift */; };
+		84EA62CE20669F7700FCA75C /* WSDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA62A520669F7600FCA75C /* WSDiscoverViewController.swift */; };
+		84EA62CF20669F7700FCA75C /* WSMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA62A720669F7600FCA75C /* WSMessageViewController.swift */; };
+		84EA62D020669F7700FCA75C /* WSProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA62A920669F7600FCA75C /* WSProfileViewController.swift */; };
 		84EA62D120669F7700FCA75C /* WSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA62AB20669F7600FCA75C /* WSBaseViewController.swift */; };
 		84EA62D220669F7700FCA75C /* WSTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA62AC20669F7600FCA75C /* WSTabBarController.swift */; };
 		84EA62D320669F7700FCA75C /* WSNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA62AD20669F7600FCA75C /* WSNavigationController.swift */; };
@@ -32,6 +35,7 @@
 		84EA62DE20669F7700FCA75C /* NSAttributedString+CZAdditon.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EA62C820669F7600FCA75C /* NSAttributedString+CZAdditon.m */; };
 		84EA62DF20669F7700FCA75C /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EA62C920669F7600FCA75C /* NSArray+Log.m */; };
 		84EA62E020669F7700FCA75C /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA62CC20669F7600FCA75C /* Bundle+Extensions.swift */; };
+		84EA62E2206BF7C000FCA75C /* WSDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA62E1206BF7C000FCA75C /* WSDemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,10 +68,13 @@
 		547E2A22202B01A0002FE333 /* sinaWeiboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sinaWeiboUITests.swift; sourceTree = "<group>"; };
 		547E2A24202B01A0002FE333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		547E2A62202BFCF7002FE333 /* sinaWeibo-Bridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sinaWeibo-Bridging.h"; sourceTree = "<group>"; };
-		84EA62A320669F7600FCA75C /* WSHomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSHomeTableViewController.swift; sourceTree = "<group>"; };
-		84EA62A520669F7600FCA75C /* WSDiscoverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSDiscoverTableViewController.swift; sourceTree = "<group>"; };
-		84EA62A720669F7600FCA75C /* WSMessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSMessageTableViewController.swift; sourceTree = "<group>"; };
-		84EA62A920669F7600FCA75C /* WSProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSProfileTableViewController.swift; sourceTree = "<group>"; };
+		840B0C19216AEE7E00EFBC87 /* WSNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSNavigationBar.swift; sourceTree = "<group>"; };
+		849186A2216AF7A3008A3644 /* UIDevice+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extensions.swift"; sourceTree = "<group>"; };
+		849186A4216B482F008A3644 /* UIBarButtonItem+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extensions.swift"; sourceTree = "<group>"; };
+		84EA62A320669F7600FCA75C /* WSHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSHomeViewController.swift; sourceTree = "<group>"; };
+		84EA62A520669F7600FCA75C /* WSDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSDiscoverViewController.swift; sourceTree = "<group>"; };
+		84EA62A720669F7600FCA75C /* WSMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSMessageViewController.swift; sourceTree = "<group>"; };
+		84EA62A920669F7600FCA75C /* WSProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSProfileViewController.swift; sourceTree = "<group>"; };
 		84EA62AB20669F7600FCA75C /* WSBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSBaseViewController.swift; sourceTree = "<group>"; };
 		84EA62AC20669F7600FCA75C /* WSTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSTabBarController.swift; sourceTree = "<group>"; };
 		84EA62AD20669F7600FCA75C /* WSNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSNavigationController.swift; sourceTree = "<group>"; };
@@ -97,6 +104,7 @@
 		84EA62C920669F7600FCA75C /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
 		84EA62CA20669F7600FCA75C /* NSString+CZPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZPath.h"; sourceTree = "<group>"; };
 		84EA62CC20669F7600FCA75C /* Bundle+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		84EA62E1206BF7C000FCA75C /* WSDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSDemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,7 +209,7 @@
 		84EA62A220669F7600FCA75C /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				84EA62A320669F7600FCA75C /* WSHomeTableViewController.swift */,
+				84EA62A320669F7600FCA75C /* WSHomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -209,7 +217,7 @@
 		84EA62A420669F7600FCA75C /* Discover */ = {
 			isa = PBXGroup;
 			children = (
-				84EA62A520669F7600FCA75C /* WSDiscoverTableViewController.swift */,
+				84EA62A520669F7600FCA75C /* WSDiscoverViewController.swift */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
@@ -217,7 +225,7 @@
 		84EA62A620669F7600FCA75C /* Message */ = {
 			isa = PBXGroup;
 			children = (
-				84EA62A720669F7600FCA75C /* WSMessageTableViewController.swift */,
+				84EA62A720669F7600FCA75C /* WSMessageViewController.swift */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -225,7 +233,7 @@
 		84EA62A820669F7600FCA75C /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				84EA62A920669F7600FCA75C /* WSProfileTableViewController.swift */,
+				84EA62A920669F7600FCA75C /* WSProfileViewController.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -233,9 +241,11 @@
 		84EA62AA20669F7600FCA75C /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				84EA62AB20669F7600FCA75C /* WSBaseViewController.swift */,
 				84EA62AC20669F7600FCA75C /* WSTabBarController.swift */,
 				84EA62AD20669F7600FCA75C /* WSNavigationController.swift */,
+				84EA62AB20669F7600FCA75C /* WSBaseViewController.swift */,
+				840B0C19216AEE7E00EFBC87 /* WSNavigationBar.swift */,
+				84EA62E1206BF7C000FCA75C /* WSDemoViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -299,6 +309,8 @@
 			isa = PBXGroup;
 			children = (
 				84EA62CC20669F7600FCA75C /* Bundle+Extensions.swift */,
+				849186A2216AF7A3008A3644 /* UIDevice+Extensions.swift */,
+				849186A4216B482F008A3644 /* UIBarButtonItem+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -438,17 +450,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84EA62CD20669F7600FCA75C /* WSHomeTableViewController.swift in Sources */,
+				84EA62CD20669F7600FCA75C /* WSHomeViewController.swift in Sources */,
 				84EA62D820669F7700FCA75C /* NSString+CZBase64.m in Sources */,
-				84EA62D020669F7700FCA75C /* WSProfileTableViewController.swift in Sources */,
+				840B0C1A216AEE7E00EFBC87 /* WSNavigationBar.swift in Sources */,
+				84EA62D020669F7700FCA75C /* WSProfileViewController.swift in Sources */,
 				84EA62DB20669F7700FCA75C /* NSObject+CZRuntime.m in Sources */,
+				849186A3216AF7A3008A3644 /* UIDevice+Extensions.swift in Sources */,
 				84EA62DE20669F7700FCA75C /* NSAttributedString+CZAdditon.m in Sources */,
 				84EA62DF20669F7700FCA75C /* NSArray+Log.m in Sources */,
+				849186A5216B482F008A3644 /* UIBarButtonItem+Extensions.swift in Sources */,
 				84EA62E020669F7700FCA75C /* Bundle+Extensions.swift in Sources */,
 				84EA62D620669F7700FCA75C /* UIScreen+CZAddition.m in Sources */,
 				547E2A03202B019F002FE333 /* AppDelegate.swift in Sources */,
-				84EA62CE20669F7700FCA75C /* WSDiscoverTableViewController.swift in Sources */,
-				84EA62CF20669F7700FCA75C /* WSMessageTableViewController.swift in Sources */,
+				84EA62CE20669F7700FCA75C /* WSDiscoverViewController.swift in Sources */,
+				84EA62CF20669F7700FCA75C /* WSMessageViewController.swift in Sources */,
 				84EA62DA20669F7700FCA75C /* UIButton+CZAddition.m in Sources */,
 				84EA62D320669F7700FCA75C /* WSNavigationController.swift in Sources */,
 				84EA62DD20669F7700FCA75C /* NSString+CZHash.m in Sources */,
@@ -459,6 +474,7 @@
 				84EA62D920669F7700FCA75C /* NSString+CZPath.m in Sources */,
 				84EA62D420669F7700FCA75C /* UIColor+CZAddition.m in Sources */,
 				84EA62D520669F7700FCA75C /* UIView+CZAddition.m in Sources */,
+				84EA62E2206BF7C000FCA75C /* WSDemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  WSProfileTableViewController.swift
+//  WSMessageViewController.swift
 //  sinaWeibo
 //
 //  Created by wusheng on 2018/2/7.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class WSProfileTableViewController: WSBaseViewController {
+class WSMessageViewController: WSBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
